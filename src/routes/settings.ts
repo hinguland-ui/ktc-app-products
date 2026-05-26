@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { AppSettings } from "../models/AppSettings";
+import { AppSettings } from "../models/AppSettings.js";
 import nodemailer from "nodemailer";
 
 const router = Router();

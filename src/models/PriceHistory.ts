@@ -1,4 +1,4 @@
-import { mongoose } from "../lib/mongo";
+import { mongoose } from "../lib/mongo.js";
 
 const priceHistorySchema = new mongoose.Schema({
   productId: { type: String, required: true },

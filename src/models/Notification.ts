@@ -1,4 +1,4 @@
-import { mongoose } from "../lib/mongo";
+import { mongoose } from "../lib/mongo.js";
 
 const notificationSchema = new mongoose.Schema({
   title: { type: String, required: true },

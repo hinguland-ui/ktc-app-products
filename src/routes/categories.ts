@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { Category } from "../models/Category";
-import { Notification } from "../models/Notification";
+import { Category } from "../models/Category.js";
+import { Notification } from "../models/Notification.js";
 
 const router = Router();
 

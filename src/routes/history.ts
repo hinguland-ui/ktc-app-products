@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { PriceHistory } from "../models/PriceHistory";
+import { PriceHistory } from "../models/PriceHistory.js";
 
 const router = Router();
 

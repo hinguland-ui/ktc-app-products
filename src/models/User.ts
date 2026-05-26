@@ -1,4 +1,4 @@
-import { mongoose } from "../lib/mongo";
+import { mongoose } from "../lib/mongo.js";
 
 const permissionsSchema = new mongoose.Schema({
   canViewProducts: { type: Boolean, default: true },

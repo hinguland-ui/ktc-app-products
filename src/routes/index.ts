@@ -1,12 +1,12 @@
 import { Router, type IRouter } from "express";
-import healthRouter from "./health";
-import authRouter from "./auth";
-import categoriesRouter from "./categories";
-import productsRouter from "./products";
-import historyRouter from "./history";
-import notificationsRouter from "./notifications";
-import staffRouter from "./staff";
-import settingsRouter from "./settings";
+import healthRouter from "./health.js";
+import authRouter from "./auth.js";
+import categoriesRouter from "./categories.js";
+import productsRouter from "./products.js";
+import historyRouter from "./history.js";
+import notificationsRouter from "./notifications.js";
+import staffRouter from "./staff.js";
+import settingsRouter from "./settings.js";
 
 const router: IRouter = Router();
 

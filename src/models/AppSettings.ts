@@ -1,4 +1,4 @@
-import { mongoose } from "../lib/mongo";
+import { mongoose } from "../lib/mongo.js";
 
 const appSettingsSchema = new mongoose.Schema({
   key: { type: String, required: true, unique: true },

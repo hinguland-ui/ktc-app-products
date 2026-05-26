@@ -1,4 +1,4 @@
-import { mongoose } from "../lib/mongo";
+import { mongoose } from "../lib/mongo.js";
 
 const priceSlabSchema = new mongoose.Schema({
   quantity: { type: Number, required: true },

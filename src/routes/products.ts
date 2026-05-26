@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { Product } from "../models/Product";
-import { PriceHistory } from "../models/PriceHistory";
-import { Notification } from "../models/Notification";
+import { Product } from "../models/Product.js";
+import { PriceHistory } from "../models/PriceHistory.js";
+import { Notification } from "../models/Notification.js";
 
 const router = Router();
 
